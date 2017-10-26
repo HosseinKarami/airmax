@@ -1,0 +1,141 @@
+.footer{
+  padding: 1rem;
+  margin: 0;
+  background: #424242;
+  direction: rtl;
+  @include phone{
+    padding: 1rem;
+  }
+  @include tablet{
+    padding: 1rem;
+  }
+  @include desktop{
+    padding: 4rem;
+  }
+  @include largedesktop{
+    padding: 4rem;
+  }
+  @include biglargedesktop{
+    padding: 4rem;
+  }
+  .wrapper{
+    max-width: 980px;
+    margin: 0 auto;
+    .content{
+
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      @include phone{
+        flex-direction: column;
+      }
+      @include tablet{
+        flex-direction: column;
+      }
+      @include desktop{
+        flex-direction: row;
+      }
+      @include largedesktop{
+        flex-direction: row;
+      }
+      @include biglargedesktop{
+        flex-direction: row;
+      }
+      .col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 1rem;
+        @include phone{
+          width: 100%;
+          padding: 1rem;
+        }
+        @include tablet{
+          width: 100%;
+          padding: 1rem;
+        }
+        @include desktop{
+          width: 33.33333333%;
+          padding: 0;
+        }
+        @include largedesktop{
+          width: 33.33333333%;
+          padding: 0;
+        }
+        @include biglargedesktop{
+          width: 33.33333333%;
+          padding: 0;
+        }
+        ul{
+          margin: 0;
+          padding: 0;
+          list-style-type: circle;
+          color: #f9f9f9;
+          width: 100%;
+          li{
+            line-height: 2;
+            a{
+              color: #f9f9f9;
+              font-size: .9rem;
+              font-weight: 300;
+              text-decoration: none;
+              outline: none;
+              transition: .2s linear 0s;
+              &:hover{
+                color: #c1b494;
+              }
+            }
+          }
+        }
+        &.logo{
+          align-items: center;
+          @include phone{
+            align-items: center;
+          }
+          @include tablet{
+            align-items: center;
+          }
+          @include desktop{
+            align-items: flex-end;
+          }
+          @include largedesktop{
+            align-items: flex-end;
+          }
+          @include biglargedesktop{
+            align-items: flex-end;
+          }
+          .dev{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            a{
+              color: #f9f9f9;
+              font-size: .8rem;
+              text-decoration: none;
+              outline: none;
+              transition: .2s linear 0s;
+              &:hover{
+                color: #c1b494;
+              }
+              &.author{
+                margin: .5rem 0 0;
+              }
+            }
+            p{
+              font-size: .8rem;
+              color: #f9f9f9;
+              margin: .5rem 0 0;
+            }
+          }
+        }
+      }
+    }
+    p{
+      text-align: right;
+      font-size: .9rem;
+      color: #f9f9f9;
+    }
+  }
+}

@@ -1,0 +1,352 @@
+$tl: 0.6s; 
+.header{
+  display: flex;
+  direction: rtl;
+  background: #fff;
+  width: 100%;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  @include phone{
+    padding: .5rem 1rem;
+  }
+  @include tablet{
+    padding: .5rem 1rem;
+  }
+  @include desktop{
+    padding: .5rem 4rem;
+  }
+  @include largedesktop{
+    padding: .5rem 4rem;
+  }
+  @include biglargedesktop{
+    padding: .5rem 4rem;
+  }
+  .nav-menu{
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      color: #333;
+      cursor: pointer;
+      display: inline-block;
+      line-height: 0;
+      letter-spacing: 0.1em;
+      transition: background-color 0.2s linear,border-color 0.2s linear,color 0.2s linear;
+      // position: absolute;
+      // top: 1rem;
+      // left: 1rem;
+      padding: .7rem;
+      @include phone{
+        display: inline-block;
+      }
+      @include tablet{
+        display: inline-block;
+      }
+      @include desktop{
+        display: none;
+      }
+      @include largedesktop{
+        display: none;
+      }
+      @include biglargedesktop{
+        display: none;
+      }
+      .menu-btn{
+        display: inline-block;
+        width: 30px;
+        height: 4px;
+        background: #23272B;
+        border-radius: 9px;
+        position: relative;
+        z-index: 1;
+        &:before{
+          top: -8px;
+          transition-property: top, -webkit-transform;
+          transition-property: top, transform;
+          height:4px;
+          content:"";
+          background:#23272B;
+          border-radius: 9px;
+          position:absolute;
+          left:0;
+          width:100%;
+          transition-duration:0.35s,0.35s;
+          transition-delay:0.35s,0;
+        }
+        &:after{
+          bottom: -8px;
+          transition-property: bottom, -webkit-transform;
+          transition-property: bottom, transform;
+          height:4px;
+          content:"";
+          background:#23272B;
+          border-radius: 9px;
+          position:absolute;
+          left:0;
+          width:100%;
+          transition-duration:0.35s,0.35s;
+          transition-delay:0.35s,0;
+        } 
+      }
+   }
+  .head{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    a{
+      display: flex;
+      outline: none;
+      text-decoration: none;
+    }
+  }
+  .nav{
+    width: 80%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -80%;
+      z-index: 999;
+      display: inline-block;
+      list-style: none;
+      padding: 2rem 0rem 0;
+      border-right: 2px solid whitesmoke;
+      margin: 0;
+      //background: #23272b;
+      @include phone{
+        width: 80%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -80%;
+        z-index: 999;
+        display: inline-block;
+        padding: 2rem 0rem 0;
+        border-right: 2px solid whitesmoke;
+      }
+      @include tablet{
+        width: 80%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -80%;
+        z-index: 999;
+        display: inline-block;
+        padding: 2rem 1rem 0;
+        border-right: 2px solid whitesmoke;
+      }
+      @include desktop{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        @include position(relative, 0px 0px 0px 0px);
+        padding: 0;
+        border-right: none;
+      }
+      @include largedesktop{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        @include position(relative, 0px 0px 0px 0px);
+        padding: 0;
+        border-right: none;
+      }
+      @include biglargedesktop{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        @include position(relative, 0px 0px 0px 0px);
+        padding: 0;
+        border-right: none;
+      }
+    li{
+      display: flex;
+      padding: 0 .4rem;
+      align-items: center;
+      a{
+        text-decoration: none;
+        font-size: .9rem;
+        padding: .5rem 1rem;
+        display: flex;
+        align-items: center;
+        color: #252525;
+        outline: none;
+        border-radius: 16px;
+        transition: all 0.3s ease;
+        &:hover{
+          background: rgba(37, 37, 37, 0.17);
+        }
+      }
+      &.Search{
+        padding: 1rem;
+        @include phone{
+          padding: 1rem;
+        }
+        @include tablet{
+          padding: 1rem;
+        }
+        @include desktop{
+          padding: 0 .4rem;
+        }
+        @include largedesktop{
+          padding: 0 .4rem;
+        }
+        @include biglargedesktop{
+          padding: 0 .4rem;
+        }
+        // height: 55px;
+        // line-height: 55px;
+        // width: 100%;
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+        .input-field{
+          position: relative;
+          margin: 0;
+          .searchfield{
+            transition: width $tl, border-radius $tl, background $tl, box-shadow $tl;
+            width: 40px;height: 40px;
+            border-radius: 20px;border: none;
+            cursor: pointer;
+            background: rgb(235, 235, 235);
+            // position: absolute;
+            // top: .45rem;
+            // left: 2.7rem;
+            position: relative;
+            z-index: 2;
+            & + label .icon-search {    
+              
+              color: black;
+                }
+            &:hover {
+              color: white;
+              background: rgb(200, 200, 200);
+              box-shadow: 0 0 0 5px rgb(61, 71, 82);
+              & + label .icon-search {    color: white    }
+            }
+            &:focus {
+              transition: width $tl cubic-bezier(0,1.22,.66,1.39), border-radius $tl, background $tl;
+              border: none;outline: none;
+              box-shadow: none;
+              padding-left: 15px;
+              cursor: text;
+              width: 300px;
+              border-radius: auto;
+              background: rgb(235, 235, 235);
+              color: black;
+              & + label .icon-search {    color: black;    }
+            }
+            &:not(:focus) {    text-indent:-5000px;    }
+          }
+
+          .icon-search{
+            position: absolute;
+            top: .7rem;
+            left: 0.77rem;
+            cursor: pointer;
+            z-index: 2;
+          }
+        }
+      }
+    }
+  }
+  &.oscar{
+    background: #46171E;
+    .nav-menu{
+      .menu-btn{
+        background: #f9f9f9;
+        &:before{
+          background: #f9f9f9;
+        }
+        &:after{
+          background: #f9f9f9;
+        }
+      }
+    }
+    .nav{
+      background: #46171E;
+      li{
+        a{
+          color: #f9f9f9;
+          &:hover{
+            background: rgba(255, 255, 255, 0.17);
+          }
+        }
+      }
+    }
+  }
+  &.goldenglobe{
+    background: #521230;
+    .nav-menu{
+      .menu-btn{
+        background: #f9f9f9;
+        &:before{
+          background: #f9f9f9;
+        }
+        &:after{
+          background: #f9f9f9;
+        }
+      }
+    }
+    .nav{
+      background: #521230;
+      li{
+        a{
+          color: #f9f9f9;
+          &:hover{
+            background: rgba(255, 255, 255, 0.17);
+          }
+        }
+      }
+    }
+  }
+  &.movies{
+    background: #23272B;
+    .nav-menu{
+      .menu-btn{
+        background: #f9f9f9;
+        &:before{
+          background: #f9f9f9;
+        }
+        &:after{
+          background: #f9f9f9;
+        }
+      }
+    }
+    .nav{
+      background: #23272b;
+      li{
+        a{
+          color: #f9f9f9;
+          &:hover{
+            background: rgba(255, 255, 255, 0.17);
+          }
+        }
+      }
+    }
+  }
+}
+.gradiant{
+  display: block;
+  width: 100%;
+  height: 5px;
+  position: relative;
+  &:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 0 0, 0 100% ;
+    background-repeat: no-repeat;
+    background-size: 100% 20px;
+    background-image: linear-gradient(to right, #3023AE 0%, #C86DD7 100%);
+
+  }
+}

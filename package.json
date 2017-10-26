@@ -1,0 +1,26 @@
+{
+  "name": "AirMax.ir",
+  "title": "Custom Theme for AirMax.ir",
+  "author": "Hossein Karami (@_Karamii)",
+  "url": "https://hosseinkarami.com",
+  "version": "2.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/HosseinKarami/HosseinKarami.github.io.git"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-header": "^1.8.7",
+    "gulp-jshint": "^1.12.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-shell": "^0.5.2",
+    "gulp-uglify": "^1.5.4",
+    "lodash": "^4.16.0"
+  }
+}

@@ -1,0 +1,24 @@
+* {
+  box-sizing: inherit;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  &:before{
+    box-sizing: inherit;
+  }
+  &:after{
+    box-sizing: inherit;
+  }
+}
+
+@keyframes fadeDown{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+body {
+  font: 400 1rem/1.6 'IRANSans', Helvetica, Arial;
+  color: #252525;
+  transition: all ease-out 600ms;
+  animation: fadeDown 1s ease;
+  //direction: rtl;
+}

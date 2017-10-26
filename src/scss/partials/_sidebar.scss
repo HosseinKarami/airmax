@@ -1,0 +1,64 @@
+.searchtitle{
+  background: #23272B;
+  direction: rtl;
+  .back{
+    background: rgba(0, 0, 0, 0.11);
+    h2{
+      width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: #dac7a7;
+      span{
+        color: whitesmoke;
+      }
+    }
+  }
+}
+body{
+  &.tv{
+    background: darkblue url(../img/tv_fuzz_small.gif) top left repeat;
+    background-attachment: fixed;
+  }
+}
+.notfound{
+  //background: darkblue;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  direction: rtl;
+  svg{
+    width: 300px;
+    fill: #b71c1c;
+    margin-top: -10rem;
+  }
+  h1{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #292929;
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.27);
+  }
+  a{
+    color: #292929;
+    text-decoration: none;
+    outline: none;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.27);
+    border: 2px solid #292929;
+    padding: .5rem 2rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    transition: .2s linear 0s;
+    cursor: pointer;
+    &:hover{
+      background: white;
+      // color: #f9f9f9;
+      // border: 2px solid #f9f9f9;
+    }
+  }
+}

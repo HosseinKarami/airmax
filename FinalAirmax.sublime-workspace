@@ -1,0 +1,615 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get_he",
+				"get_header"
+			],
+			[
+				"end",
+				"endwhile"
+			],
+			[
+				"ma",
+				"margin-top: "
+			],
+			[
+				"h",
+				"href\tAttr"
+			],
+			[
+				"h4",
+				"h4\tTag"
+			],
+			[
+				"sp",
+				"span\tTag"
+			],
+			[
+				"h1",
+				"h1\tTag"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"styl",
+				"style\tAttr"
+			],
+			[
+				"te",
+				"text-align: "
+			],
+			[
+				"max",
+				"max-width: "
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"tec",
+				"text-decoration: "
+			],
+			[
+				"pa",
+				"padding-top: "
+			],
+			[
+				"border-to",
+				"border-top-left-radius: "
+			],
+			[
+				"1rem",
+				"1rem"
+			],
+			[
+				"sha",
+				"Shapes"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"m",
+				"margin: "
+			],
+			[
+				"mar",
+				"margin-left: "
+			],
+			[
+				"colum",
+				"column"
+			],
+			[
+				"fle",
+				"flex-direction: "
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"ali",
+				"align-items: "
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"su",
+				"summary\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"fo",
+				"font-size: "
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 675,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "waka",
+		"selected_items":
+		[
+			[
+				"waka",
+				"WakaTime: Open Dashboard"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/hosseinkarami/Work/htdocs/AirMax",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/src",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/src/components",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/src/js",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax"
+	],
+	"file_history":
+	[
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/single.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/src/scss/modules/_app.scss",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/src/scss/partials/_footer.scss",
+		"/Users/hosseinkarami/Work/my.ssjonline.ir/templates/flat/banned.tpl",
+		"/Users/hosseinkarami/Desktop/index.html",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/package.json",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/src/scss/partials/_main.scss",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/header.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/gulpfile.js",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/header-movies.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/comedy.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/drama.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2002.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2003.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2004.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2005.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2006.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2015.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2014.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2013.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2012.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2011.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2010.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2009.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2008.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2007.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2006.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2005.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2004.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2003.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/oscars-2002.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/os.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/goldenglobe.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2015.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2014.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2013.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2012.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2011.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2010.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2009.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2007.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/golden-2008.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/topmovies.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/search.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/src/scss/partials/_sidebar.scss",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/src/scss/vendor/_external.scss",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/footer.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/header-search.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/header-oscars.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/header-music.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/header-globe.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/404.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/header-apps.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/template-parts/content.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/template-parts/content-search.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/twentysixteen/search.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/src/scss/partials/_header.scss",
+		"/Users/hosseinkarami/Downloads/air.sql",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/functions.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/movies.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/music.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/apps.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/src/scss/modules/_typography.scss",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/src/js/scripts.js",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/home.php",
+		"/Users/hosseinkarami/Work/AirMax/assets/img/search.svg",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/src/scss/modules/_defaults.scss",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/cddvd.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/graphic.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/internet.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/multimedia.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-content/themes/airmax/utilities.php",
+		"/Users/hosseinkarami/Work/htdocs/AirMax/wp-config.php",
+		"/Users/hosseinkarami/Work/AirMax/_animations/index.html",
+		"/Users/hosseinkarami/Work/AirMax/movies/animations/index.html",
+		"/Users/hosseinkarami/Work/AirMax/movies/animation.html",
+		"/Users/hosseinkarami/Work/AirMax/movies/animation/index.html",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt2401878.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt2402927.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt4955294.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt4661600.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt4171032.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3830162.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3829254.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3808342.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3460252.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3397884.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3312830.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3170902.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt2488496.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt1618448.md",
+		"/Users/hosseinkarami/Work/AirMax/src/scss/modules/_app.scss",
+		"/Users/hosseinkarami/Work/AirMax/oscars/index.html",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt2096673.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt2379713.md",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-12-tt2975590.md",
+		"/Users/hosseinkarami/Work/AirMax/gulpfile.js",
+		"/Users/hosseinkarami/Work/AirMax/_config.yml",
+		"/Users/hosseinkarami/Work/AirMax/Gemfile",
+		"/Users/hosseinkarami/Work/AirMax/movies/index.html",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt1618448.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt4185572.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3312830.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3460252.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt2402927.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt2488496.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3397884.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3682448.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3829254.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt4171032.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt4661600.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt4955294.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3966404.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3830162.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3170902.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3808342.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt2096673.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt2401878.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt2872750.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3183630.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3398268.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt1663202.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt3659388.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt0810819.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-21-tt1392190.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_posts/2016-10-12-tt2975590.markdown",
+		"/Users/hosseinkarami/Work/AirMax/_includes/moviesnav.html"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"download",
+			"'post_type' => 'post',",
+			"fill=\"#f9f9f9\"",
+			"goldenglobes/",
+			"2003",
+			"2004",
+			"2005",
+			"2006",
+			"2007",
+			"2008",
+			"2009",
+			"2010",
+			"2011",
+			"2012",
+			"2013",
+			"2014",
+			"2015",
+			"2016",
+			"2003",
+			"2004",
+			"2005",
+			"2006",
+			"2007",
+			"2008",
+			"2009",
+			"2010",
+			"2011",
+			"2012",
+			"2013",
+			"2014",
+			"2015",
+			"oscars/",
+			"2016",
+			"untitled-font-2",
+			"posts",
+			"allmo",
+			"class=\"st0\"",
+			"<span>ژانر:</span>",
+			".carousel-indicators",
+			"unslider",
+			"unslider-nav",
+			";\n",
+			"github",
+			"dedP",
+			"fl",
+			"dedPa",
+			"back-to-top",
+			"BackToTop",
+			"dedPack",
+			"ded",
+			";\n",
+			"nolimit",
+			"nol",
+			"dedPack",
+			"dedPacl",
+			"limit",
+			"<a href=\"#close-jump-305\" class=\"expand-close\"></a>",
+			"expand-close",
+			"sell",
+			"fesh",
+			"faq",
+			"club",
+			"faq",
+			"AllPacks",
+			"dedP",
+			"nolimi",
+			"ribb",
+			"nolimit",
+			"contentpack",
+			"dedPa",
+			"club",
+			"روزه",
+			"PLf",
+			"alert",
+			"ribb",
+			"009688",
+			"extr",
+			"showpri",
+			"bro",
+			"ded",
+			"blue",
+			"red",
+			"ded",
+			"dedP",
+			"top",
+			"<svg fill=\"#000000\" height=\"18\" viewBox=\"0 0 24 24\" width=\"18\" xmlns=\"http://www.w3.org/2000/svg\">\n                          <path d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                          <path d=\"M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z\"/>\n                      </svg>",
+			"                        <svg fill=\"#000000\" height=\"18\" viewBox=\"0 0 24 24\" width=\"18\" xmlns=\"http://www.w3.org/2000/svg\">\n                            <path d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                            <path d=\"M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z\"/>\n                        </svg>",
+			"suggestLink",
+			"۸۰۸",
+			"جمز",
+			"maode",
+			"map",
+			"pager",
+			"summ",
+			"su",
+			"sum",
+			"جنوب",
+			"summ",
+			"sellers",
+			"compa",
+			"dedi",
+			"zindex",
+			"z-index",
+			"blacwhite",
+			"png",
+			"blackred",
+			"setContent",
+			"185507",
+			"lng",
+			"name",
+			"address",
+			"code",
+			"tel",
+			"location",
+			"lat",
+			"'",
+			"count",
+			"chara",
+			"foo",
+			"contact",
+			"abou",
+			"dropmenu",
+			";\n",
+			"fesh",
+			"firework",
+			"spee",
+			"panel-default",
+			"grid-"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"}\n "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								27
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 64.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "FinalAirmax.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"src/scss/vendor/_external.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
